@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: bgpoint-cse
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: user
+Implementation-Vendor-Id: com.dromedian.comunico
+Build-Jdk: 1.8.0_261
+Implementation-URL: http://www.dromedian.com/bgpoint/bgpoint-cse
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Dromedian Srl
+

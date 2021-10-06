@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8" />
+        <title>Smart VR</title>
+        <!-- <base href="/ui/" /> -->
+        <base href="/" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+        <!--  TODO Importarlo da node_modules https://webrtc.github.io/adapter/adapter-latest.js-->
+        <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+
+
+    </head>
+    <body>
+
+        <script>
+          window.onbeforeunload = function () {
+            return "Do you want to leave?"
+          }
+        </script>
+        <noscript>Your browser does not support JavaScript!</noscript>
+        <div id="mainspinner" class="global-spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    <app-root></app-root>
+<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="scripts.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
+</html>

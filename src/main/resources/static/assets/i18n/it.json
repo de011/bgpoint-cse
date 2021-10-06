@@ -1,0 +1,52 @@
+{
+  "error.internalServerError": "Errore del server.",
+  "error.accessDenied": "Accesso negato",
+  "Access Denied": "Sessione scaduta.",
+  "vr": {
+    "common": {
+      "search": "Cerca..",
+      "noDataMessage": "Nessun dato da visualizzare",
+      "error": "Si è verificato un errore",
+      "navigation_error": "Chiamata in corso. Impossibile eseguire l'operazione.",
+      "notDefined": {
+        "m": "Nessuno",
+        "f": "Nessuna"
+      }
+    },
+    "userstatus": {
+      "session-pending": "Offline",
+      "not-registred": "Offline",
+      "free": "Disponibile",
+      "connected": "In collegamento",
+      "pause": "In pausa",
+      "busy": "Occupato",
+      "call": "Occupato",
+      "calling": "Occupato",
+      "ringing": "In arrivo",
+      "hangup ": "Occupato",
+      "error": "Offline"
+    },
+    "usertype": {
+      "agent": "Utente",
+      "kiosk-ui": "Totem",
+      "kiosk-billy": "Totem"
+    },
+    "visit": {
+      "icon": "",
+      "startDate": "Ingresso",
+      "endDate": "Uscita",
+      "note": "Note",
+      "locked": "Stato",
+      "visitors": "Visitatore",
+      "callRequest": "Totem",
+      "action": {
+        "confirm": {
+          "error": {
+            "accessCodeNull": "Impossibile stampare il ticket. Contattare l'amministratore."
+          }
+        }
+      }
+    }
+  },
+  "password_helper": "La password deve essere composta da almeno 8 caratteri, di cui almeno una lettera, un numero, un simbolo speciale (ad esempio !,$,#,%)"
+}
